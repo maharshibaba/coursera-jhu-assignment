@@ -6,5 +6,6 @@
 
 - Below are the links to jump to respective module Assignments:
  - [Module 2](http://rishavpandey.me/coursera-jhu-assignment/module_2/)
- - [Module 3]()
- - [Module 4]()
+ - [Module 3](http://rishavpandey.me/coursera-jhu-assignment/module_3/)
+ - [Module 4](http://rishavpandey.me/coursera-jhu-assignment/module_4/)
+ - [Module 5](http://rishavpandey.me/coursera-jhu-assignment/module_5/)
