@@ -6,4 +6,4 @@
 
 **_This is Module 3 Assignmet_**
 
-Click [here](http://rishavpandey.me/coursera-jhu-assignment/module_3/index.html) to begin
+Click [here](http://rishavpandey.me/coursera-jhu-assignment/course4/module_3/index.html) to begin
