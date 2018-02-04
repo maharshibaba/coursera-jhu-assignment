@@ -8,21 +8,37 @@
     <script src="app.js"></script>
     <style>
       .message { font-size: 1.3em; font-weight: bold; }
+
+      .without-data_inputArea {
+      	border: solid red 2px;
+      }
+      .with-data_inputArea {
+      	border: solid green 2px;
+      }
+
+      .without-data_font {
+      	color: red;
+      }
+      .with-data_font {
+      	color: green;
+      }
+
     </style>
   </head>
 <body>
    <div class="container" ng-controller = "LunchCheckController">
      <h1>Lunch Checker</h1>
 
-         <div class="form-group">
+         <div class="form-group {{extra_style1}}">
              <input id="lunch-menu" type="text"
-             placeholder="list comma separated dishes you usually have for lunch"
+             placeholder="List comma separated dishes you usually have for lunch, e.g - (pizza, burger)"
              class="form-control" ng-model = "name">
          </div>
+         <p><strong>Note:-</strong><em>Empty space not considered.</em> </p>
          <div class="form-group">
              <button class="btn btn-default" ng-click="check()">Check If Too Much</button>
          </div>
-         <div class="form-group message">
+         <div class="form-group message {{extra_style2}}">
            {{messageToDisplay}}
          </div>
    </div>
